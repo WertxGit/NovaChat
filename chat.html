@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Чат</title>
+<link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+<header class="topbar">
+  <button class="back-btn" onclick="history.back()">‹</button>
+  <img id="chatAvatar" class="avatar-small">
+  <h2 id="chatName"></h2>
+</header>
+
+<div id="messages" class="messages"></div>
+
+<footer class="input-box">
+<input id="msgInput" placeholder="Сообщение...">
+<button onclick="sendMessage()">➤</button>
+</footer>
+
+<script type="module" src="js/chat.js"></script>
+</body>
+</html>
